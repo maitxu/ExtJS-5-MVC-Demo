@@ -1,0 +1,17 @@
+@include extjs-panel-ui(
+    $ui: 'crazy-framed',
+    $ui-border-color: #000,
+    $ui-border-radius: 5px 10px 20px 30px,
+    $ui-border-width: 5px,
+    $ui-padding: 40px,
+    $ui-header-border-width: 0px,
+    $ui-header-color: #0f0,
+    $ui-header-font-family: 'Comic Sans MS',
+    $ui-header-font-size: 14pt,
+    $ui-header-font-weight: bold,
+    $ui-header-line-height: 35px,
+    $ui-header-background-color: #353538,
+    $ui-body-background-color: #404041,
+    $ui-body-color: #f0f,
+    $ui-body-font-weight: bold
+);

@@ -1,0 +1,45 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.title .x-panel-body-default {
+    font-size: 40pt;
+    font-family: 'Yanone Kaffeesatz';
+    line-height: 50px;
+}
+
+//Tile menu
+.tile-wrap {
+     margin: 30px;
+     display: inline-block;
+     cursor: pointer;
+}
+
+.tile-wrap:hover {
+    font-weight: bold;
+}
+
+.tile-wrap.x-view-item-focused {
+    outline: 0px !important;
+}
+
+//Template Data View
+.row {
+    border-top: 1px solid #ccc;
+    padding: 15px;
+}
+
+.row:first-child {
+    border-top: 0px;
+}
+
+.row .name {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.row .email {
+    padding-top: 10px;
+}

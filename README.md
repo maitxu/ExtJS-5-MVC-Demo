@@ -1,4 +1,22 @@
-# Test
+# How to Run This App
+
+ - Pull a copy of this repository
+ - Download and install Ruby if you don’t already have it [Windows installer](http://rubyinstaller.org/)
+ - Download and install [Sencha Cmd 5.1.3](https://www.sencha.com/products/extjs/cmd-download/)
+ - Run your command prompt with Ruby as Administrator, and navigate to the repo folder (Test)
+ - Confirm you have Sencha Cmd installed properly by running the command: sencha
+ - If that command runs successfully, still from the Test folder, run: sencha app watch
+ - That command will start up a local server, navigate to localhost:1841 in a browser to view the application
+
+## To create your own ExtJS 5 application
+ - Download the [ExtJS 5 library](http://olex.openlogic.com/packages/extjs/5.1.0) (or [latest version](https://www.sencha.com/legal/gpl/))
+ - Using Sencha Cmd, run: sencha -sdk path/to/ext/library.5.0.1 generate app MyApp path/to/where/you/want/it
+ - Navigate to the application you just created, and run: sencha app build
+ - Once the build completes, run: sencha app watch
+ - View your default app at localhost:1841 in a browser
+ - Use the Sencha Docs to help you expand your application
+
+# ExtJS 5 Demo App
 
 This folder is primarily a container for the top-level pieces of the application.
 While you can remove some files and folders that this application does not use,

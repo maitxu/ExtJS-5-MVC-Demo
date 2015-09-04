@@ -10,7 +10,7 @@
 
 ## To create your own ExtJS 5 application
  - Download the [ExtJS 5 library](http://olex.openlogic.com/packages/extjs/5.1.0) (or [latest version](https://www.sencha.com/legal/gpl/))
- - Using Sencha Cmd, run: sencha -sdk path/to/ext/ext-5.1.0 generate app MyApp path/to/where/you/want/it
+ - Using Sencha Cmd, run: `sencha -sdk path/to/ext/ext-5.1.0 generate app MyApp path/to/where/you/want/it`
  - Navigate to the application you just created, and run: `sencha app build`
  - Once the build completes, run: `sencha app watch`
  - View your default app at localhost:1841 in a browser
